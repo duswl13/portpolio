@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <!-- 공통 헤드-->
+    <th:block th:replace="/layout/main/head :: headFragment"></th:block>
+	
+    <body data-bs-spy="scroll" data-offset="70" class="body-bg-five" id="background_body">    
+		<!-- loader -->
+        <div class="loader">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="preloader__wrapper">
+                        <div class="preloader__circle">
+                            <div class="preloader__circle-line preloader__circle-line--1"></div>
+                            <div class="preloader__circle-line preloader__circle-line--2"></div>
+                            <div class="preloader__circle-line preloader__circle-line--3"></div>
+                            <div class="preloader__circle-line preloader__circle-line--4"></div>
+                            <div class="preloader__circle-line preloader__circle-line--5"></div>
+                            <div class="preloader__circle-line preloader__circle-line--6"></div>
+                            <div class="preloader__circle-line preloader__circle-line--7"></div>
+                            <div class="preloader__circle-line preloader__circle-line--8"></div>
+                            <div class="preloader__circle-line preloader__circle-line--9"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End loader -->
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top menu-shrink">
+			<div class="container">
+				<h1>
+					<a class="navbar-brand" href="/">
+						JYJ-PORTFOLIO
+					</a>
+				</h1>
+				<button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#home">홈</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">소개</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#portfolio">프로젝트</a>
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link" href="#blog">블로그</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">이메일</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navbar -->
+		
+      	<div class="main-area two">
+      		 <!-- Go-top -->
+      		 <div class="go-top active">
+      		 	<i class="bi bi-arrow-up"></i>
+      		 	<i class="bi bi-arrow-up"></i>
+		     </div>
+             <!-- Content -->
+             <th:block layout:fragment="content"></th:block>
+
+              <!-- 공통 하단-->
+              <!--  <th:block th:replace="/layout/main/footer :: footerFragment"></th:block> -->
+		</div>
+		
+		<!-- Go Top -->
+        <div class="go-top">
+            <i class='bx bxs-up-arrow-alt'></i>
+            <i class='bx bxs-up-arrow-alt'></i>
+        </div>
+        <!-- End Go Top -->
+        
+        
+        <!-- 공통 스크립트-->
+        <th:block th:replace="/layout/main/script :: scriptFragment"></th:block>
+    </body>
+</html>

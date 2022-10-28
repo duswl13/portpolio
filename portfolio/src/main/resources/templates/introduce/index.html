@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout}">
+	
+	<th:block layout:fragment="content">
+	    <div class="main-content two">
+	        <!-- Introduce -->
+	        <section id="home" class="banner-area border-bottom-two three">
+	             <div class="d-table">
+	                 <div class="d-table-cell">
+	                     <div class="container">
+	                         <div class="banner-content">
+	                             <h1><span>개발자</span> 장연지</h1>
+	                             <p id="introduce_txt">
+	                             	항상 즐겁고 재미있는 개발을 하고싶은 <span>웹 / 안드로이드 개발자</span> 입니다.
+	                            	<br>
+	                            	부천에서 거주하고 있으며, 자전거를 타고 출퇴근하는 것을 좋아합니다.
+	                             	<br>
+	                             	저에 대한 자세한 정보가 궁금하다면 아래로 스크롤 해주세요.</p>
+	                             <div class="banner-btn-area">
+	                                 <a id="btn_phone" class="common-btn three" href="tel:010-9577-6852">목소리가 궁금하다면,</a>
+	                                 <a id="btn_email" class="common-btn banner-btn">긴 이야기가 필요하다면,</a>
+	                             </div>
+	                         </div>
+	                     </div>
+	                 </div>
+	             </div>
+	        </section>
+	        <!-- End Introduce -->
+	
+	        <!-- About -->
+	        <section id="about" class="about-area border-bottom-two three ptb-100">
+	            <div class="container align-items-center">
+	                <div class="row">
+	                    <div class="col-lg-5">
+	                        <div class="about-img-three">
+	                            <img src="assets/img/profile.gif" alt="About">
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-7">
+	                        <div class="about-content">
+	                            <div class="section-title three">
+	                                <h2>저는 곧 31살인,<br>1993년생 여성입니다.</h2>
+	                                <p>
+	                                	웹과 안드로이드를 각각 2년씩 개발한 경험이 있으며,
+	                                	개인적으로 웹 개발을 좋아합니다. 넓은 화면에서 많은 것을 표현하는 걸 좋아하거든요.
+	                                </p>
+	                            </div>
+	                            <div class="row">
+	                                <div class="col-lg-12">
+	                                    <div class="left">
+	                                        <ul>
+	                                            <li>
+	                                                <span>생년월일:</span>
+	                                                1993.06.04
+	                                            </li>
+	                                            <li>
+	                                                <span>주소지:</span>
+	                                                경기도 부천시
+	                                            </li>
+	                                            <li>
+	                                                <span>희망 지역:</span>
+	                                               부천시, 인천광역시, 서울특별시
+	                                            </li>
+	                                            <li>
+	                                                <span>MBTI:</span>
+	                                               	ISF J/P 반반
+	                                            </li>
+	                                            <li>
+	                                                <span>연락처:</span>
+	                                               	010-9577-6852
+	                                            </li>
+	                                            <li>
+	                                                <span>이메일:</span>
+	                                               	plain64@naver.com 
+	                                            </li>
+	                                        </ul>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
+	        <!-- End About -->
+	
+	        <!-- Experience -->
+	          <section class="experience-area three border-bottom-two ptb-100">
+	              <div class="container">
+	                  <div class="experience-content">
+	                 		<div class="section-title three">
+								<h2>경력 사항</h2>
+							</div>
+				  			<div class="experience-inner">
+	                          <ul class="align-items-center">
+	                              <li>
+	                                  <span>2020-2022.09</span>
+	                              </li>
+	                              <li>
+	                                  <span>웹 개발 및 유지보수</span>
+	                              </li>
+	                              <li>
+	                                  <p>(주)리메딧</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                      <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                              <li>
+	                                  <span>2018-2019</span>
+	                              </li>
+	                              <li>
+	                                  <span>안드로이드 앱 기획</span>
+	                              </li>
+	                              <li>
+	                                  <p>씨앤아이피</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                      <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                              <li>
+	                                  <span>2016-2018</span>
+	                              </li>
+	                              <li>
+	                                  <span>안드로이드 앱 기획 및 개발</span>
+	                              </li>
+	                              <li>
+	                                  <p>(주)신텍</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                  </div>
+	              </div>
+	              <br>
+	              <br>
+	              <br>
+	              <div class="container">
+	                  <div class="section-title three">
+							<h2>자격증</h2>
+					  </div>
+	                  <div class="experience-content">
+							<div class="experience-inner">
+	                          <ul class="align-items-center">
+	                           	<li>
+	                                  <span>2022.11(예정)</span>
+	                              </li>
+	                              <li>
+	                                  <span>정보처리기사</span>
+	                              </li>
+	                              <li>
+	                                  <p>한국산업인력공단</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+						  <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                           	<li>
+	                                  <span>2022.09</span>
+	                              </li>
+	                              <li>
+	                                  <span>SQLD</span>
+	                              </li>
+	                              <li>
+	                                  <p>한국데이터베이스진흥센터</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                      <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                         	 	<li>
+	                                  <span>2017.05</span>
+	                              </li>
+	                              <li>
+	                                  <span>한국사능력검정시험 3급</span>
+	                              </li>
+	                              <li>
+	                                  <p>국사편찬위원회</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                      <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                         		<li>
+	                                  <span>2016.05</span>
+	                              </li>
+	                              <li>
+	                                  <span>2종보통운전면허</span>
+	                              </li>
+	                              <li>
+	                                  <p>경찰청</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+						  <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                         		<li>
+	                                  <span>2016.04</span>
+	                              </li>
+	                              <li>
+	                                  <span>전산회계 1급</span>
+	                              </li>
+	                              <li>
+	                                  <p>한국세무사협회</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+						  <div class="experience-inner">
+	                          <ul class="align-items-center">
+	                          	<li>
+	                                  <span>2013.12</span>
+	                              </li>
+	                              <li>
+	                                  <span>사무자동화산업기사</span>
+	                              </li>
+	                              <li>
+	                                  <p>한국산업인력공단</p>
+	                              </li>
+	                          </ul>
+	                      </div>
+	                  </div>
+	              </div>
+	          </section>
+	          <!-- End Experience -->
+	        
+	        <!-- What -->
+	         <section class="what-area three border-bottom-two pt-100 pb-70">
+	             <div class="container">
+	                 <div class="section-title three">
+						<h2>개발 환경 및 기술</h2>
+					 </div>
+	                 <div class="row">
+					 <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>Language</a>
+	                             </h3>                                  
+	                             <p>
+	                             - JAVA<br>
+	                             - C,C++<br>
+								 - SQL<br>
+	                             </p>
+	                         </div>
+	                     </div>
+	                     <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>FrontEnd</a>
+	                             </h3>                                  
+	                             <p>
+	                             - HTML5/CSS3<br>
+	                             - JavaScript/jQuery<br>
+								 - Bootstrap<br>
+	                             </p>
+	                         </div>
+	                     </div>
+	                     <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>BackEnd</a>
+	                             </h3>                                  
+	                             <p>
+	                             - Spring<br>
+	                             - Spring Boot<br>
+								 - JSP/JSTL<br>
+	                             </p>
+	                         </div>
+	                     </div>
+	                     <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>DataBase</a>
+	                             </h3>                                  
+	                             <p>
+	                             - Oracle<br>
+	                             - MySQL<br>
+	                             - MyBatis
+	                             </p>
+	                         </div>
+	                     </div>
+	                     <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>Server</a>
+	                             </h3>                                  
+	                             <p>
+	                             - Tomcat<br>
+	                             - Jeus<br>
+	                             - Amazon Web Services<br>
+	                             </p>
+	                         </div>
+	                     </div>
+	                     <div class="col-sm-12 col-lg-4">
+	                         <div class="what-item">
+	                             <h3>
+	                                 <a>Tools</a>
+	                             </h3>                                  
+	                             <p>
+	                             - Eclipse / Spring Tool Suite<br>
+	                             - Android Studio<br>
+	                             - SVN<br>
+	                             </p>
+	                         </div>
+	                     </div>
+	                 </div>
+	             </div>
+	         </section>
+	         <!-- End What -->
+	
+	        <!-- Project -->
+	          <section id="portfolio" class="what-area three border-bottom-two pt-100 pb-70">
+	              <div class="container">
+	               	 <div class="section-title three">
+						<h2>참여 프로젝트</h2>
+					 </div>
+	                  <div class="row">
+	                      <div class="col-sm-12 col-lg-12">
+	                          <div class="what-item">
+	                              <h3>
+	                                  <a href="http://zeus.go.kr/step" target="_blank">총사업비 관리 검토시스템(STEP) 고도화</a>
+	                              </h3>
+	                              <p>2021.11.08 ~ 2021.12.17</p>
+	                            
+	                              <p>
+	                              - 메시지 발송, 검토 결과 관리, 사용 권한 관리 등 운영관리 기능 개발<br>
+								  - 설계적정성검토 신청 기능 개선<br>
+								  - 구축장비 정보 등록 기능 추가<br>
+								  - 요청서 등록 관리 기능 개발<br>
+								  - 설계변경 사전 타당성 검토 신청 기능 추가<br>
+								  - 검토 요청 접수 관리 기능 개발<br>
+								  - 합동토론회 기능 개발
+					              </p>
+	                        </div>
+	                    </div>
+	
+	                    <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a>동물사육현황 실시간 모니터링 시스템 구축</a>
+	                            </h3>
+	                            <p>2021.08.20 ~ 2021.10.29</p>
+	                            
+	                            <p> 
+	                            - 태블릿, 바코드와 연계된 Cage 재고 관리 업무 설계<br>
+								- LARC의 IACUC와 연계된 예약 승인 체계 구축<br>
+								- 기간별 Cage 이용 현황, Cage 이력 관리 등 이용실적 기준 리포팅<br>
+								- Cage 재고 실사 및 관리자 Cage 재고 관리 시스템 구현<br>
+								- Cage 이용내역을 기반으로 D-HUB 정산 연계
+								</p>
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a href="https://www.zeus.go.kr/red" target="_blank">RED 시설장비심의평가서비스 고도화</a>
+	                            </h3>
+	                            <p>2021.01.04 ~ 2021.07.30</p>
+	                            
+	                            <p> - 금액별 심의 프로세스 개발<br>
+									- 중복성검토서비스 성능 개선<br>
+									- 심의위원 개인정보 관리 개선<br>
+									- 심의위원 온라인 교육 개발<br>
+									- 통합 PMS 시스템 간 정보 연계<br>
+									- 심의 메신저 기능 개발<br>
+								</p>
+	                        </div>
+	                    </div>
+	
+	            		<div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a href="https://rems.kict.re.kr/main.do" target="_blank">2021년 KICT 연구시설장비 통합관리시스템 유지보수</a>
+	                            </h3>
+	                            <p>2021.01.01 - 2021.12.31</p>
+	                            
+	                            <p> - 장비관리시스템(REMS) 안정적인 관리 및 유지보수<br>
+									- 장비관리시스템(REMS) 웹 취약점 보안 조치 및 지속적인 관리<br>
+									- 장비관리시스템(REMS)의 오류, 장애시 즉각적인 대책마련<br>
+									- 장비관리시스템 사용자 편의성 개선을 위한 사용자인터페이스 및 디자인 개선<br>
+									- 기타 기존 시스템 유지보수를 위해 필요한 사항
+								</p>
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a href="http://race.cbtp.or.kr" target="_blank">충북연구장비정보시스템 1단계 고도화 플랫폼 구축</a>
+	                            </h3>
+	                            <p>2020.11.02 - 2020.12.16</p>
+	                            
+	                            <p> - 충북연구장비정보 수집관리 및 외부 시스템 정보연계<br>
+									- 충북RACE 확대 플랫폼 구현을 통한 활용 기능 강화, UI 개선<br>
+									- 온라인 장비 신청 및 실시간 예약관리 등 활용기능 고도화<br>
+									- 장비 보유정보에 대한 변동사항 이력관리<br>
+									- 장비실적조사 관리 및 활용성과 관리<br>
+									- 연구장비 정보‧활용‧분석 데이터에 대한 엑셀자료 관리
+								</p>
+	                        </div>
+	                    </div>
+	                    
+	                    
+	                    <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a>녹색건축물 인증제도 관리지원시스템 구축</a>
+	                            </h3>
+	                            <p>2020.08.20 - 2020.10.16</p>
+	                            
+	                            <p> 
+	                            - 녹색건축물 4대 인증제도* 서비스 통합신청 기능 구축<br>
+								- 신청 건축물이 받고자 하는 인증 및 인증기관 선택 기능 구현<br>
+								- 인증제도별 신청서의 공통사항* 선정 및 데이터교환 양식 설정 후, 해당 양식에 따른 신청 기능 구현<br>
+								- 타 운영/인증기관들과의 연계를 위한 open API 구축<br>
+								- 사후 관리를 위한 차트 및 통계 기능 구현<br>
+								- 인증프로세스 대쉬보드 구축
+								</p>
+	                        </div>
+	                    </div>
+	
+						<div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a href="https://rems.kict.re.kr/main.do" target="_blank">2020년 KICT 연구시설장비 통합관리시스템 유지보수</a>
+	                            </h3>
+	                            <p>2020.04.01 - 2020.12.28</p>
+	                            
+	                            <p> 
+	                            - 장비관리시스템(REMS) 안정적인 관리 및 유지보수<br>
+								- 장비관리시스템(REMS) 웹 취약점 보안 조치 및 지속적인 관리<br>
+								- 장비관리시스템(REMS)의 오류, 장애시 즉각적인 대책마련<br>
+								- 장비관리시스템 사용자 편의성 개선을 위한 사용자인터페이스 및 디자인 개선<br>
+								- 장비관리시스템의 정확한 분석을 통한 개선방향제시 및 대응<br>
+								</p>
+	                        </div>
+	                    </div>
+	
+	                    <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+	                            <h3>
+	                                <a href="https://www.zeus.go.kr/red" target="_blank">RED 시설장비심의평가서비스 운영 및 고도화</a>
+	                            </h3>
+	                            <p>2020.03.16 - 2020.09.30</p>
+	                            
+	                            <p> 
+	                            - 본심의, 추경 예산심의 기능 개발<br>
+								- 1억 미만 심의 결과 관리 기능 개선(Web/API)<br>
+								- 이행실태점검 기능 개선<br>
+								- 총사업비 시스템(STEP)과의 연계<br>
+								- 구축지원심의 심의요청서 및 장비구축계획서 관리<br>
+								- 구축지원심의 온라인심의위원회 기능 개발<br>
+								- 개인정보 보안 강화를 위한 관리 기능 개발<br>
+								- 심의위원 개인정보 관리 개선
+								</p>
+	                        </div>
+	                    </div>
+	                    
+	                     <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+
+	                            <h3>
+	                                <a>BLE 통신 기반 IoT 스마트홈 캐치도어 개발 및 유지보수</a>
+	                            </h3>
+	                            <p>2017.10.01 - 2018.05.01</p>
+	                            
+	                            <p> 
+	                            	- firebase 기반 통신 기능 개발<br>
+	                            	- BLE 장치 등록 관리 개발<br>
+	                            	- BLE 장치 실시간 원격 관리 기능 개발 <br>
+	                            	- 아두이노 시제품 개발<br>
+	                            	- 구글 플레이 스토어 앱 관리 및 유지보수<br>
+								</p>
+
+	                        </div>
+	                    </div>
+	                    
+	                     <div class="col-sm-12 col-lg-12">
+	                        <div class="what-item">
+
+	                            <h3>
+	                                <a>Blutooth 통신 기반 소변알람/미아방지/위치추적용 캐치벨 개발 및 유지보수</a>
+	                            </h3>
+	                            <p>2016.10.01 - 2017.08.31</p>
+	                            <p> 
+                            	- firebase 기반 통신 기능 개발<br>
+                            	- Bluetooth 2.0, 4.0, BLE 장치 등록 관리 개발<br>
+                            	- 일간/주간/월간 사용자 통계 기능 개발<br>
+                            	- GPS 로그 관리 및 실시간 위치 공유 기능 개발<br>
+                            	- 아두이노 시제품 개발<br>
+                            	- 구글 플레이 스토어 앱 관리 및 유지보수 <br>
+								</p>
+
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
+	        <!-- End Project -->
+	
+	        <!-- Blog -->
+	        <section id="blog" class="blog-area three border-bottom-two pt-100 pb-70">
+	            <div class="container">
+	                <div class="section-title three">
+	                   <h2>최신 블로그 글</h2>         
+	                </div>               
+	                <div class="row">
+	
+	                    <div class="col-sm-6 col-lg-6" th:each="post : ${posts}">
+	                        <div class="blog-item">
+	                            <div class="top">
+	                                <a th:href="@{${post.postUrl}}" target="_blank">
+	                                    <img th:src="@{${post.img}}" alt="Blog">
+	                                </a>
+	                                <h4>[[${post.month}]]월<span>[[${post.day}]]일</span></h4>
+	                            </div>
+	                            <div class="bottom">
+	                                <h3>
+	                                    <a th:href="@{${post.postUrl}}" target="_blank">[[${post.title}]]</a>
+	                                </h3>
+	                                <p>[[${post.content}]]</p>
+	                                <a class="blog-btn" th:href="@{${post.postUrl}}" target="_blank">
+	                                    더보기
+	                                    <i class="flaticon-right-arrow"></i>
+	                                </a>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
+	        <!-- End Blog -->
+	
+	        <!-- Contact -->
+	        <section id="contact" class="contact-area three border-bottom-two pt-100 pb-70">
+	            <div class="container">
+	                <div class="section-title three">
+	                    <h2>이메일로 연락하기</h2>
+	                    <p>자세한 이야기가 필요하다면, 아래 항목을 작성하여 저에게 보내주세요.</p>
+	                </div>
+	                <div class="row align-items-center">
+	                    <div class="col-lg-12">
+	                        <form id="contactForm" onsubmit="sendEmail();return false">        
+	                            <div class="form-group">
+	                                <input type="email" name="email" id="email" class="form-control" placeholder="이메일 주소" required data-error="이메일 주소를 입력하세요.">
+	                                <div class="help-block with-errors"></div>
+	                            </div>
+	                            <div class="form-group">
+	                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="내용" required data-error="내용을 입력하세요."></textarea>
+	                                <div class="help-block with-errors"></div>
+	                            </div>
+	                            <button type="submit" id="btn_sendEmail" class="btn common-btn three">
+	                                보내기
+	                                <span></span>
+	                            </button>
+	                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+	                            <div class="clearfix"></div>
+	                        </form>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
+	        <!-- End Contact -->
+	    </div>
+	</th:block>
+</html>
+
+  
